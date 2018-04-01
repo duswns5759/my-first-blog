@@ -17,7 +17,10 @@ from django.contrib import admin
 
 
 from django.conf.urls import url
+from blog.views import test
+
 
 urlpatterns = [
     url(r'admin/', admin.site.urls),
+    url('test/', test),
 ]
