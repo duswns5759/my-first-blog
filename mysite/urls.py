@@ -17,10 +17,10 @@ from django.contrib import admin
 
 
 from django.conf.urls import url
-from blog.views import test
+from blog.views import test1
 
 
 urlpatterns = [
     url(r'admin/', admin.site.urls),
-    url(r'^$', test),
+    url(r'^$', test1),
 ]
